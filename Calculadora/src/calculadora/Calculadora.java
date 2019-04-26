@@ -27,6 +27,11 @@ public class Calculadora {
                 case "/":
                     System.out.println(Divisao.calcDiv(x, y));
                     break;
+                case "l":
+                    System.out.println(Logaritmo.calcLog(x, y));
+                    break;
+                case "v":
+                    System.out.println(Raiz.calcRaiz(x, y));
                 default:
                     System.out.println("Insira uma operação válida");
             }       
